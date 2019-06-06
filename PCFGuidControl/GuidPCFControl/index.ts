@@ -2,7 +2,12 @@ import {IInputs, IOutputs} from "./generated/ManifestTypes";
 
 export class GuidPCFControl implements ComponentFramework.StandardControl<IInputs, IOutputs> {
 
-	/**
+
+    private _labelElement: HTMLElement;
+    private _container: HTMLDivElement;
+    private _context: ComponentFramework.Context<IInputs>;
+
+    /**
 	 * Empty constructor.
 	 */
 	constructor()
@@ -21,6 +26,12 @@ export class GuidPCFControl implements ComponentFramework.StandardControl<IInput
 	public init(context: ComponentFramework.Context<IInputs>, notifyOutputChanged: () => void, state: ComponentFramework.Dictionary, container:HTMLDivElement)
 	{
 		// Add control initialization code
+        this._context = context;
+        this._container = container;
+        this._labelElement = document.createElement("label");
+        this._labelElement.setAttribute("id", "lblGuid");
+        this._labelElement.innerHTML = "NA";
+        this._container.appendChild(this._labelElement);
 	}
 
 
@@ -31,6 +42,10 @@ export class GuidPCFControl implements ComponentFramework.StandardControl<IInput
 	public updateView(context: ComponentFramework.Context<IInputs>): void
 	{
 		// Add code to update control view
+        this._context = context;
+        // @ts-ignore
+        this._labelElement.innerHTML = Xrm.Page.data.entity.getId();
+        
 	}
 
 	/** 
