@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PCFGuidControl",
+    "\\PCFGuidControl\\GuidPCFControl",
+    "\\PCFGuidControl\\GuidPCFControl\\PCFGuidSolution",
+    "\\PCFGuidControl\\GuidPCFControl\\PCFGuidSolution\\other",
+    "\\PCFGuidControl\\obj"
+  ],
+  "SelectedNode": "\\PCFGuidControl\\GuidPCFControl\\index.ts",
+  "PreviewInSolutionExplorer": false
+}

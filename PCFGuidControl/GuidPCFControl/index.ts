@@ -43,9 +43,21 @@ export class GuidPCFControl implements ComponentFramework.StandardControl<IInput
 	{
 		// Add code to update control view
         this._context = context;
-        // @ts-ignore
-        this._labelElement.innerHTML = Xrm.Page.data.entity.getId();
-        
+		// @ts-ignore
+		// this._labelElement.innerHTML  = Xrm.Page.data.entity.getId();
+
+		if(this._context.page.entityId != null)
+		{
+		// @ts-ignore
+		   this._labelElement.innerHTML  = this._context.page.entityId;
+		}
+		else
+		{
+			this._labelElement.innerHTML = " ";
+			
+		}
+		
+  
 	}
 
 	/** 

@@ -1,0 +1,2 @@
+C:\Users\nisha\source\repos\nishantranacrm\PCFControls\PCFGuidControl\obj\Debug\PCFGuidControl.pcfprojAssemblyReference.cache
+C:\Users\nisha\source\repos\nishantranacrm\PCFControls\PCFGuidControl\obj\Debug\PCFGuidControl.pcfproj.CoreCompileInputs.cache

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="PCFNamespace" constructor="GuidPCFControl" version="0.0.1" display-name-key="GuidPCFControl" description-key="PCF Control to show GUID of the record" control-type="standard">
+  <control namespace="PCFNamespace" constructor="GuidPCFControl" version="0.0.7" display-name-key="GuidPCFControl" description-key="PCF Control to show GUID of the record" control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <property name="GUIDProperty" display-name-key="GUIDProperty" description-key="GUID Field" of-type="SingleLine.Text" usage="bound" required="true" />
     <!-- 

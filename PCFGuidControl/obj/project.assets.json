@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.0": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.2.59": {
+      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -11,7 +11,7 @@
       }
     },
     ".NETFramework,Version=v4.0/win": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.2.59": {
+      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -20,7 +20,7 @@
       }
     },
     ".NETFramework,Version=v4.0/win-x64": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.2.59": {
+      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -29,7 +29,7 @@
       }
     },
     ".NETFramework,Version=v4.0/win-x86": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.2.59": {
+      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -39,10 +39,10 @@
     }
   },
   "libraries": {
-    "Microsoft.PowerApps.MSBuild.Pcf/0.2.59": {
-      "sha512": "lR9n5cKLOHIW40uHCQSyQmXIplLHNis5IqJ6OE+r1EL/ZJNl3eUtleNvJmbVVDcejIp19vGDvpuxfBpj+oPXjg==",
+    "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
+      "sha512": "w/nu1AVrY7ZsYrxaqFEVKXnNCUPJiTZ+p3DqBKx0jy10YtNTYuzdc2Nz1iiF70bgXuWGn7xo0LTcVA99gWXYsQ==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.pcf/0.2.59",
+      "path": "microsoft.powerapps.msbuild.pcf/0.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -50,7 +50,7 @@
         "LICENSE.txt",
         "build/Microsoft.PowerApps.MSBuild.Pcf.props",
         "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
-        "microsoft.powerapps.msbuild.pcf.0.2.59.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.0.4.3.nupkg.sha512",
         "microsoft.powerapps.msbuild.pcf.nuspec"
       ]
     }
@@ -66,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nisha\\source\\repos\\PCFControls\\PCFGuidControl\\PCFGuidControl.pcfproj",
+      "projectUniqueName": "C:\\Users\\nisha\\source\\repos\\nishantranacrm\\PCFControls\\PCFGuidControl\\PCFGuidControl.pcfproj",
       "projectName": "PCFGuidControl",
-      "projectPath": "C:\\Users\\nisha\\source\\repos\\PCFControls\\PCFGuidControl\\PCFGuidControl.pcfproj",
+      "projectPath": "C:\\Users\\nisha\\source\\repos\\nishantranacrm\\PCFControls\\PCFGuidControl\\PCFGuidControl.pcfproj",
       "packagesPath": "C:\\Users\\nisha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nisha\\source\\repos\\PCFControls\\PCFGuidControl\\obj\\",
+      "outputPath": "C:\\Users\\nisha\\source\\repos\\nishantranacrm\\PCFControls\\PCFGuidControl\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
